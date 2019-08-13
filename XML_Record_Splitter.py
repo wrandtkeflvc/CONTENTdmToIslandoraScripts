@@ -2,6 +2,7 @@
 # This was written by Kevin Nance and modified by Randy Fischer.
 # The purpose of this script is preparing metadata in migration from CONTENTdm.
 
+
 #!/usr/bin/env python
 
 import os
@@ -17,12 +18,12 @@ import sys
 #Name of working directory
 # Updates script to correct directory folder
 #directory = "/ucf-collection/sample_export_20190703"
-directory = "/ucf-collection/production-MODS/FLVC-2-rev/dc_files"
+directory = "/ucf-collection/minaRunScripts"
 
 #Name of XML File that will be split into individual record files (with extension)
 #XMLFileToBeSplit = "CONTENTdmCustomexport_20190617.xml"
 #XMLFileToBeSplit = "CFM_FLVC1_export_20190703.xml"
-XMLFileToBeSplit = ""
+XMLFileToBeSplit = "CFM_FLVC1export_20190717.xml"
 
 #--------------------------------------------------------
 def main():
